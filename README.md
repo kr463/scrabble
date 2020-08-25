@@ -1,1 +1,2 @@
-# A project created in CS 3110. We implemented the game scrabble in OCaml.
+# CS 3110 Project
+We implemented the game scrabble in OCaml.
