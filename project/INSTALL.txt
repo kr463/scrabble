@@ -1,0 +1,9 @@
+Start game with 'make play'.
+
+Rules and instructions appear at the start of the game.
+
+Game is implemented for 2 players. Players can take turn placing their letters
+on the board to create words and recieve points. Points are given based off of 
+the regular scrabble letter rules and special tiles allocation.
+
+To quite, type quit

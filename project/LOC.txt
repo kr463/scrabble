@@ -1,0 +1,18 @@
+main.ml
+
+There may be multiple different exceptions raised at any point of the scrabble 
+game and hence there are more than 50 lines of exception handling, each with a
+unique helpful message.
+
+scrabble.ml
+
+> 3 matrices made
+
+It may seem like we have duplicate code for making the board matrices but since
+the data structure used to make the board matrix is mutable, i.e. an array, we 
+could not make independent copies of the same array. Hence, the 3 matrices 
+created are each for 
+1) the actual game play board, 
+2) an empty matrix that represents the initial state of board (incl. 
+   special scores) to be compared and used for game state changes,
+3) a board matrix for the game tutorial.

@@ -1,0 +1,3 @@
+<{dictionary,player,scrabble,main}.ml>: coverage
+<test.{byte,native}>: coverage
+true: package(oUnit),package(yojson),package(ANSITerminal)
